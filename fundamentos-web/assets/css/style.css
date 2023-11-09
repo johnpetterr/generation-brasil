@@ -1,0 +1,108 @@
+/* DEFAULT CSS */
+body {
+  background-image: url("../img/fundo.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+#menu {
+  text-align: center;
+}
+
+#menu li {
+  display: inline;
+  padding: 30px;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: rgb(209, 184, 231);
+  font-size: x-large;
+}
+
+#menu li a:hover {
+  color: white;
+}
+
+.rs-icons {
+  width: 30px;
+  height: 30px;
+  padding: 0px 15px;
+}
+
+.titulo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px black;
+}
+
+.titulo p {
+  font-size: 15px;
+  text-shadow: 1px 1px black;
+}
+
+/* INDEX CSS*/
+
+.titulo h1 {
+  font-size: 30px;
+}
+
+#img {
+  border-radius: 50px;
+  width: 200px;
+  height: 200px;
+  transition: all 0.5s;
+  border: 10px solid transparent;
+}
+
+#img:hover {
+  border: 10px solid #6d1397;
+  border-radius: 50%;
+}
+
+.texto {
+  padding: 30px;
+}
+
+.texto p {
+  text-align: justify;
+  text-indent: 30px;
+  color: rgb(229, 206, 250);
+  text-shadow: 2px 2px black;
+}
+
+/* CONTATO CSS */
+
+.mb {
+  margin-bottom: 50px;
+}
+
+.ml {
+  margin-left: 50px;
+}
+
+.titulo1 {
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+.titulo1 p{
+  text-align: center;
+}
+
+.container form{
+  padding: 0px 20px;
+}
